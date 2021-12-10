@@ -10,4 +10,6 @@ public interface ProductService {
     List<Product> findAll();
 
     List<Product> findAllByPriceBetween(BigDecimal from, BigDecimal to);
+
+    List<String> getUppercaseTitles();
 }
